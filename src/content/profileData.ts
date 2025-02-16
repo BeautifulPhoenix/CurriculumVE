@@ -15,7 +15,7 @@ export const PROFILE = {
   headLine2:
     "Administrador de sistemas, apasionado por aprender y potenciar habilidades en ciberseguridad y programación.",
   website: "https://oriolrafols.com",
-  repo: "https://github.com/tim-hub/techtim-astro-bento-portfolio",
+  repo: "https://github.com/BeautifulPhoenix",
   avatarUrl: "/techtim42.webp",
   shortIntros: [
     "💻 Sys Admin / Web Develooper | Advocate for Open Source | Self-starter | Cybersecurity Enthusiast",
@@ -32,12 +32,12 @@ export const PROFILE = {
     "HTML",
     "C/C++",
     "Wordpress",
-    "O 365",
+    "O365",
     "Cloud Computing",
     "VMware",
     "ESXi",
     "Proxmox",
-    "Postgres",
+    "PostgresSQL",
     "SQL",
     "Astro",
     "PHP",
