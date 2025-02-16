@@ -249,6 +249,13 @@ declare module 'astro:content' {
 } & { render(): Render[".mdx"] };
 };
 "projects": {
+"Neuroessence.mdx": {
+	id: "Neuroessence.mdx";
+  slug: "Neuroessence";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".mdx"] };
 "bible-reference.mdx": {
 	id: "bible-reference.mdx";
   slug: "bible-reference";
