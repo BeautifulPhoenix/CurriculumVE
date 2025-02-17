@@ -187,28 +187,28 @@ declare module 'astro:content' {
   slug: "accountant";
   body: string;
   collection: "experiences";
-  data: any
+  data: InferEntrySchema<"experiences">
 } & { render(): Render[".mdx"] };
 "ai.mdx": {
 	id: "ai.mdx";
   slug: "ai";
   body: string;
   collection: "experiences";
-  data: any
+  data: InferEntrySchema<"experiences">
 } & { render(): Render[".mdx"] };
 "others.mdx": {
 	id: "others.mdx";
   slug: "other";
   body: string;
   collection: "experiences";
-  data: any
+  data: InferEntrySchema<"experiences">
 } & { render(): Render[".mdx"] };
 "travel.mdx": {
 	id: "travel.mdx";
   slug: "travel";
   body: string;
   collection: "experiences";
-  data: any
+  data: InferEntrySchema<"experiences">
 } & { render(): Render[".mdx"] };
 };
 "music": {
@@ -217,21 +217,21 @@ declare module 'astro:content' {
   slug: "paradis-city";
   body: string;
   collection: "music";
-  data: any
+  data: InferEntrySchema<"music">
 } & { render(): Render[".md"] };
 "Past Lives.md": {
 	id: "Past Lives.md";
   slug: "past-lives";
   body: string;
   collection: "music";
-  data: any
+  data: InferEntrySchema<"music">
 } & { render(): Render[".md"] };
 "sample-album.md": {
 	id: "sample-album.md";
   slug: "sample-album";
   body: string;
   collection: "music";
-  data: any
+  data: InferEntrySchema<"music">
 } & { render(): Render[".md"] };
 };
 "posts": {
@@ -240,35 +240,35 @@ declare module 'astro:content' {
   slug: "booking-scam";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 "chatgpt.mdx": {
 	id: "chatgpt.mdx";
   slug: "chatgpt";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 "feedback.mdx": {
 	id: "feedback.mdx";
   slug: "feedback";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 "hexagonal-arch.mdx": {
 	id: "hexagonal-arch.mdx";
   slug: "hexagonal-arch";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 "k8s.mdx": {
 	id: "k8s.mdx";
   slug: "k8s";
   body: string;
   collection: "posts";
-  data: any
+  data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 };
 "projects": {
@@ -277,28 +277,28 @@ declare module 'astro:content' {
   slug: "Neuroessence";
   body: string;
   collection: "projects";
-  data: any
+  data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
 "bible-reference.mdx": {
 	id: "bible-reference.mdx";
   slug: "bible-reference";
   body: string;
   collection: "projects";
-  data: any
+  data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
 "bible-vector-search.mdx": {
 	id: "bible-vector-search.mdx";
   slug: "bible-vector-search";
   body: string;
   collection: "projects";
-  data: any
+  data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
 "pelosi-trade.mdx": {
 	id: "pelosi-trade.mdx";
   slug: "pelosi-trade";
   body: string;
   collection: "projects";
-  data: any
+  data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
 };
 
@@ -310,5 +310,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }
