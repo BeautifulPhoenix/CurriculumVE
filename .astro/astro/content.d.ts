@@ -157,28 +157,28 @@ declare module 'astro:content' {
   slug: "abduction";
   body: string;
   collection: "books";
-  data: InferEntrySchema<"books">
+  data: any
 } & { render(): Render[".mdx"] };
 "perfect-story.mdx": {
 	id: "perfect-story.mdx";
   slug: "perfect-story";
   body: string;
   collection: "books";
-  data: InferEntrySchema<"books">
+  data: any
 } & { render(): Render[".mdx"] };
 "sky.mdx": {
 	id: "sky.mdx";
   slug: "sky";
   body: string;
   collection: "books";
-  data: InferEntrySchema<"books">
+  data: any
 } & { render(): Render[".mdx"] };
 "wings.mdx": {
 	id: "wings.mdx";
   slug: "kirin";
   body: string;
   collection: "books";
-  data: InferEntrySchema<"books">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "experiences": {
@@ -210,6 +210,29 @@ declare module 'astro:content' {
   collection: "experiences";
   data: InferEntrySchema<"experiences">
 } & { render(): Render[".mdx"] };
+};
+"music": {
+"paradise-guns-n-roses.md": {
+	id: "paradise-guns-n-roses.md";
+  slug: "paradise-guns-n-roses";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"past-lives-martin-arteta.md": {
+	id: "past-lives-martin-arteta.md";
+  slug: "past-lives-martin-arteta";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
+"sample-album.md": {
+	id: "sample-album.md";
+  slug: "sample-album";
+  body: string;
+  collection: "music";
+  data: InferEntrySchema<"music">
+} & { render(): Render[".md"] };
 };
 "posts": {
 "booking-scam.mdx": {

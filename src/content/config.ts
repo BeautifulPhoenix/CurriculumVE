@@ -1,5 +1,5 @@
 // Import utilities from `astro:content`
-import { z, defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
 // Define a `type` and `schema` for each collection
 const projectCollection = defineCollection({
   type: "content",
@@ -28,12 +28,13 @@ const experienceCollection = defineCollection({
   }),
 });
 
-const bookCollection = defineCollection({
+const musicCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    readYear: z.number(),
-    author: z.string(),
+    releaseYear: z.number(),
+    artist: z.string(),
+    genre: z.string().optional(),
     tags: z.array(z.string()).optional(),
   }),
 });
@@ -59,6 +60,6 @@ const postCollection = defineCollection({
 export const collections = {
   projects: projectCollection,
   experiences: experienceCollection,
-  books: bookCollection,
+  music: musicCollection,
   posts: postCollection,
 };

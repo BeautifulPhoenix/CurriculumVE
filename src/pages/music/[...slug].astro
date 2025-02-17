@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+import MDXLayout from "../../layouts/MDXLayout.astro";
+
+export async function getStaticPaths() {
+  const music = await getCollection('music');
+  return music.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<MDXLayout frontmatter={entry.data}>
+  <div class="prose dark:prose-invert max-w-none">
+    <Content />
+  </div>
+</MDXLayout>
