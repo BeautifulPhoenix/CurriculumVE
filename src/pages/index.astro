@@ -1,7 +1,6 @@
 ---
 import Card from '../components/Card.astro'
 import AboutMe from '../components/sections/AboutMe.astro'
-import BlogCard from '../components/sections/BlogCard.astro'
 import ExperienceCard from '../components/sections/ExperienceCard.astro'
 import IntroCard from '../components/sections/IntroCard.astro'
 import Music from '../components/sections/music.astro'
@@ -66,16 +65,17 @@ const SITE = PROFILE.site
 
 
     <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-1 lg:row-span-1" title="Blog Posts">
-      <BlogCard/>
+      <!-- <BlogCard/> -->
     </Card>
     <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Music I'm Passionate About">
       <Music/>
     </Card>
     <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-2 lg:row-span-1" title="Contact">
-      <div class="flex h-full w-full items-center justify-center text-center text-sm">
+      <div class="flex h-full w-full items-center justify-center text-center text-sm flex-col gap-2">
         <i>
           Please feel free to reach out to me through any from y social media.
         </i>
+        <a href="tel:"><p class="font-medium">📱 695 98 17 90</p></a>
       </div>
     </Card>
 

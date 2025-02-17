@@ -25,7 +25,7 @@ export const PROFILE = {
     "☁️ Self-Hosting Enthusiast | Creating Independent and Efficient Solutions",
     "🎶 Music Lover | 👾  Gamer | 🐉 D & D RolePlay",
   ],
-  words: ["As each one has received a gift, minister it to one another"],
+  words: ["Each line of code you write is one more step toward the improved version of yourself"],
   skills: [
     "Python",
     "JavaScript",
