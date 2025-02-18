@@ -11,7 +11,7 @@ export const PROFILE = {
   language: "Es-Es",
   firstName: "Oriol",
   name: "Oriol Rafols",
-  headLine: "Learn, Share and Grow ❤️",
+  headLine: "Collaborate, create, and transform the world with open source ❤️",
   headLine2:
     "Administrador de sistemas, apasionado por aprender y potenciar habilidades en ciberseguridad y programación.",
   website: "https://oriolrafols.com",
