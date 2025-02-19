@@ -2,9 +2,9 @@ export const PROFILE = {
   site: {
     SEO: {
       //     more complicated description for SEO
-      title: "Tech Tim (@TechTim42) - Learn, Share and Grow ❤️",
+      title: "Oriol Rafols - Collaborate, create, and transform the world with open source ❤️",
       description:
-        "Learn, Share and Grow ❤️ -- Software Engineer | AWS Professional | Open Source Lover  --☘️ Be more productive, Better in communicating, Contribute more to community. | Tech Tim's New Astro Portfolio",
+        "Collaborate, create, and transform the world with open source ❤️ | 💻 Sys Admin / Web Develooper | Portfolio ",
     },
   },
   timezone: "Europe/Madrid",
