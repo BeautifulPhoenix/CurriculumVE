@@ -1,13 +1,13 @@
 ---
 import Card from '../../components/Card.astro'
-import AboutMe from '../../components/sections/AboutMe.astro'
-import ExperienceCard from '../../components/sections/ExperienceCard.astro'
-import IntroCard from '../../components/sections/IntroCard.astro'
-import Music from '../../components/sections/music.astro'
-import Projects from '../../components/sections/Projects.astro'
-import StudyCard from '../../components/sections/StudyCard.astro'
+import AboutMe from '../../components/sections/AboutMeES.astro'
+import ExperienceCardES from '../../components/sections/ExperienceCardES.astro'
+import IntroCard from '../../components/sections/IntroCardES.astro'
+import Music2 from '../../components/sections/MusicES.astro'
+import Projects from '../../components/sections/ProjectsES.astro'
+import StudyCard from '../../components/sections/StudyCardES.astro'
 import TimeZoneCard from '../../components/sections/TimeZoneCard.astro'
-import { PROFILE } from "../../content/profileData"
+import { PROFILE } from "../../content/profileDataES"
 import BaseLayout from '../../layouts/BaseLayout.astro'
 const SITE = PROFILE.site
 ---
@@ -57,14 +57,14 @@ const SITE = PROFILE.site
     </Card>
 
     <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Experiencia">
-      <ExperienceCard/>
+      <ExperienceCardES/>
     </Card>
 
     <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-1 lg:row-span-1" title="Blog">
       <!-- <BlogCard/> -->
     </Card>
     <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Música que me apasiona">
-      <Music/>
+      <Music2/>
     </Card>
     <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-2 lg:row-span-1" title="Contacto">
       <div class="flex h-full w-full items-center justify-center text-center text-sm flex-col gap-2">
