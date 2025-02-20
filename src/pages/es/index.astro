@@ -1,0 +1,78 @@
+---
+import Card from '../../components/Card.astro'
+import AboutMe from '../../components/sections/AboutMe.astro'
+import ExperienceCard from '../../components/sections/ExperienceCard.astro'
+import IntroCard from '../../components/sections/IntroCard.astro'
+import Music from '../../components/sections/music.astro'
+import Projects from '../../components/sections/Projects.astro'
+import StudyCard from '../../components/sections/StudyCard.astro'
+import TimeZoneCard from '../../components/sections/TimeZoneCard.astro'
+import { PROFILE } from "../../content/profileData"
+import BaseLayout from '../../layouts/BaseLayout.astro'
+const SITE = PROFILE.site
+---
+
+<BaseLayout
+  title={SITE.SEO.title}
+  description={SITE.SEO.description}
+>
+  <div
+    slot="loader"
+    class="fixed top-0 right-0 bottom-0 left-0 z-50 flex h-screen w-screen items-center justify-center text-3xl font-black uppercase text-neutral-50 loader bg-darkslate-700"
+  >
+  </div>
+  <main
+    transition:animate="fade"
+    class="relative m-auto grid w-full max-w-6xl gap-2 overflow-hidden p-2 sm:gap-2 sm:p-4 md:grid-cols-2 md:gap-3 md:p-6 lg:grid-cols-12 lg:gap-4"
+  >
+    <Card colSpan="lg:col-span-9 md:col-span-2" rowSpan="md:row-span-1 lg:row-span-4">
+      <IntroCard/>
+    </Card>
+    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-3 lg:row-span-6" title="Sobre mí">
+      <AboutMe/>
+    </Card>
+
+    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-3 lg:row-span-4" title="Proyectos">
+      <Projects/>
+    </Card>
+
+    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2" title="Tu hora">
+      <TimeZoneCard/>
+    </Card>
+    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2" title="Mi hora">
+      <TimeZoneCard timezone={PROFILE.timezone} />
+    </Card>
+
+    <Card colSpan="lg:col-span-4 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2">
+      <div class="flex h-full flex-col justify-between">
+        <blockquote class="mt-6 border-l-2 pl-6 italic">
+          "{PROFILE.words[0]}"
+        </blockquote>
+        <p class="mt-2 text-xs"></p>
+      </div>
+    </Card>
+    <Card colSpan="md:col-span-1 lg:col-span-5" rowSpan="md:row-span-2 lg:row-span-2"
+          title="Educación y Certificados">
+      <StudyCard/>
+    </Card>
+
+    <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Experiencia">
+      <ExperienceCard/>
+    </Card>
+
+    <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-1 lg:row-span-1" title="Blog">
+      <!-- <BlogCard/> -->
+    </Card>
+    <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Música que me apasiona">
+      <Music/>
+    </Card>
+    <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-2 lg:row-span-1" title="Contacto">
+      <div class="flex h-full w-full items-center justify-center text-center text-sm flex-col gap-2">
+        <i>
+          No dudes en contactarme a través de cualquiera de mis redes sociales.
+        </i>
+        <a href="tel:"><p class="font-medium">📱 695 98 17 90</p></a>
+      </div>
+    </Card>
+  </main>
+</BaseLayout>
