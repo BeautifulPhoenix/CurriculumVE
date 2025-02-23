@@ -1,19 +1,19 @@
 {
-  "site": "https://techtim42.com",
-  "id": "TechTim42",
+  "site": "https://oriolrafols.com",
+  "id": "oriolrafols.com",
   "name": "@tim-hub/techtim42",
   "version": "1.0.0",
   "fullName": "Tech Tim",
   "description": "Learn, Share and Grow ❤️ -- Software Engineer | AWS Professional | Open Source Lover  --☘️ Be more productive, Better in communicating, Contribute more to community ",
   "author": {
     "name": "Tech Tim",
-    "url": "https://TechTim42.com"
+    "url": "https://oriolrafols.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/tim-hub/techtim-astro-bento-portfolio"
   },
-  "homepage": "https://techtim42.com",
+  "homepage": "https://oriolrafols.com",
   "keywords": [
     "astro",
     "portfolio",

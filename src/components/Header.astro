@@ -11,15 +11,15 @@ const SITE = PROFILE.site
   class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
 >
   <div
-    class="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0"
+    class="container flex flex-col sm:flex-row h-auto sm:h-16 items-center py-2 sm:py-0 space-y-2 sm:space-y-0 sm:space-x-4 sm:justify-between"
   >
     <div class="flex gap-6 md:gap-10">
       <a href="/" class="flex items-center space-x-2">
         <span class="inline-block font-bold">{PROFILE.name}</span>
       </a>
     </div>
-    <div class="flex flex-1 items-center justify-end space-x-4">
-      <nav class="flex items-center space-x-1">
+    <div class="flex flex-col sm:flex-row items-center justify-center sm:justify-end space-y-2 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
+      <nav class="flex flex-wrap items-center justify-center gap-2 sm:gap-1">
         <a
           href="/posts"
           class={buttonVariants({variant: 'ghost'})}

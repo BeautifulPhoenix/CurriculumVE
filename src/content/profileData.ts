@@ -16,7 +16,7 @@ export const PROFILE = {
     "Sys Admin, passionate about learning and enhancing skills in cybersecurity and programming.",
   website: "https://oriolrafols.com",
   repo: "https://github.com/BeautifulPhoenix",
-  avatarUrl: "/techtim42.webp",
+  avatarUrl: "/profile.webp",
   shortIntros: [
     "💻 Sys Admin / Web Develooper | Advocate for Open Source | Self-starter | Cybersecurity Enthusiast",
     " ",
