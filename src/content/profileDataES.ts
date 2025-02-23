@@ -16,7 +16,7 @@ export const PROFILE = {
     "Administrador de Sistemas, apasionado por aprender y mejorar habilidades en ciberseguridad y programación.",
   website: "https://oriolrafols.com",
   repo: "https://github.com/BeautifulPhoenix",
-  avatarUrl: "/profile.png",
+  avatarUrl: "/profile.webp",
   shortIntros: [
     "💻 Administrador de Sistemas / Desarrollador Web | Defensor del Código Abierto | Autodidacta | Entusiasta de la Ciberseguridad",
     " ",
