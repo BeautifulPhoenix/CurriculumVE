@@ -56,10 +56,23 @@ const postCollection = defineCollection({
   }),
 });
 
+const educationCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    institution: z.string(),
+    startDate: z.coerce.date(),
+    endDate: z.coerce.date().optional(),
+    tags: z.array(z.string()).optional(),
+    status: z.string().optional()
+  }),
+});
+
 // Export a single `collections` object to register your collection(s)
 export const collections = {
   projects: projectCollection,
   experiences: experienceCollection,
   music: musicCollection,
   posts: postCollection,
+  education: educationCollection
 };

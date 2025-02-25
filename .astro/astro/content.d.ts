@@ -181,6 +181,78 @@ declare module 'astro:content' {
   data: any
 } & { render(): Render[".mdx"] };
 };
+"education": {
+"advanced-react.mdx": {
+	id: "advanced-react.mdx";
+  slug: "advanced-react";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"ccna-routing-switching.mdx": {
+	id: "ccna-routing-switching.mdx";
+  slug: "ccna-routing-switching";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"it-essentials.mdx": {
+	id: "it-essentials.mdx";
+  slug: "it-essentials";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"linux-essentials.mdx": {
+	id: "linux-essentials.mdx";
+  slug: "linux-essentials";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"microcomputer-systems.mdx": {
+	id: "microcomputer-systems.mdx";
+  slug: "microcomputer-systems";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"oracle-plsql.mdx": {
+	id: "oracle-plsql.mdx";
+  slug: "oracle-plsql";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"oracle-sql.mdx": {
+	id: "oracle-sql.mdx";
+  slug: "oracle-sql";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"svelte-master.mdx": {
+	id: "svelte-master.mdx";
+  slug: "svelte-master";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"system-network-admin.mdx": {
+	id: "system-network-admin.mdx";
+  slug: "system-network-admin";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+"windows-server.mdx": {
+	id: "windows-server.mdx";
+  slug: "windows-server";
+  body: string;
+  collection: "education";
+  data: InferEntrySchema<"education">
+} & { render(): Render[".mdx"] };
+};
 "experiences": {
 "abast.mdx": {
 	id: "abast.mdx";

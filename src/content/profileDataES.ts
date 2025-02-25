@@ -95,5 +95,15 @@ export const PROFILE = {
       title: "Linux Essentials",
       institution: "lpi",
     },
+    {
+      title: "Master en Svelte 5",
+      institution: "Curso Online",
+      status: "Cursando"
+    },
+    {
+      title: "Desarrollo Avanzado en React",
+      institution: "Curso Online",
+      status: "Cursando"
+    },
   ],
 };
