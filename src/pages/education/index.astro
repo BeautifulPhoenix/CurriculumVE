@@ -23,12 +23,9 @@ education.sort((a, b) => {
           <TableRow key={entry.slug}>
             <TableCell className="font-medium ">
               <div class="flex flex-col gap-1 min-w-20">
-                <a
-                  href={'/education/' + entry.slug ?? ''}
-                  class={`font-semibold hover:font-extrabold ${entry?.slug ? 'text-primary' : 'text-foreground'}`}
-                >
+                <div class="font-semibold text-foreground">
                   {entry.data.title}
-                </a>
+                </div>
                 <div class="mb-4 text-sm">
                   {formateLocalMonth(entry.data.startDate)} - {entry.data.endDate ? formateLocalMonth(entry.data.endDate) : 'Present'}
                 </div>
@@ -50,9 +47,9 @@ education.sort((a, b) => {
               </div>
             </TableCell>
             <TableCell>
-              <a href={'/education/' + entry.slug}>
+              <div class="text-muted-foreground text-sm">
                 <ArrowRight/>
-              </a>
+              </div>
             </TableCell>
           </TableRow>
         ))
