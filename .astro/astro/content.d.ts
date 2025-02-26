@@ -358,30 +358,30 @@ declare module 'astro:content' {
 } & { render(): Render[".mdx"] };
 };
 "projects": {
-"Neuroessence.mdx": {
-	id: "Neuroessence.mdx";
-  slug: "Neuroessence";
+"api-rest.mdx": {
+	id: "api-rest.mdx";
+  slug: "api-rest";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
-"bible-reference.mdx": {
-	id: "bible-reference.mdx";
-  slug: "bible-reference";
+"basic-discord-theme.mdx": {
+	id: "basic-discord-theme.mdx";
+  slug: "basic-discord-theme";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
-"bible-vector-search.mdx": {
-	id: "bible-vector-search.mdx";
-  slug: "bible-vector-search";
+"kit-unix.mdx": {
+	id: "kit-unix.mdx";
+  slug: "kit-unix";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".mdx"] };
-"pelosi-trade.mdx": {
-	id: "pelosi-trade.mdx";
-  slug: "pelosi-trade";
+"rof.mdx": {
+	id: "rof.mdx";
+  slug: "rof";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
