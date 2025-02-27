@@ -45,7 +45,12 @@ export const PROFILE = {
     "CSS",
     "Docker",
     "Windows",
-    "Linux"
+    "Linux",
+    "3D Modeling",
+    "3D Printing",
+    "CAD Design",
+    "Fusion360",
+    "Blender"
   ],
   links: {
     github: "https://github.com/BeautifulPhoenix",

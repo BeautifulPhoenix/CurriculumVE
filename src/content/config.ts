@@ -5,7 +5,8 @@ const projectCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    startDate: z.date(),
+    startDate: z.coerce.date(),
+    endDate: z.coerce.date().optional(),
     description: z.string(),
     image: z
       .object({
