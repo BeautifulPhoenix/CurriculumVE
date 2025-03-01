@@ -358,13 +358,6 @@ declare module 'astro:content' {
 } & { render(): Render[".mdx"] };
 };
 "projects": {
-"3d-printed-phone-stand.mdx": {
-	id: "3d-printed-phone-stand.mdx";
-  slug: "3d-printed-phone-stand";
-  body: string;
-  collection: "projects";
-  data: InferEntrySchema<"projects">
-} & { render(): Render[".mdx"] };
 "api-rest.mdx": {
 	id: "api-rest.mdx";
   slug: "api-rest";
