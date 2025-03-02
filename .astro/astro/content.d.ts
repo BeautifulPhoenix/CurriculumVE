@@ -187,70 +187,70 @@ declare module 'astro:content' {
   slug: "advanced-react";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "ccna-routing-switching.mdx": {
 	id: "ccna-routing-switching.mdx";
   slug: "ccna-routing-switching";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "it-essentials.mdx": {
 	id: "it-essentials.mdx";
   slug: "it-essentials";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "linux-essentials.mdx": {
 	id: "linux-essentials.mdx";
   slug: "linux-essentials";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "microcomputer-systems.mdx": {
 	id: "microcomputer-systems.mdx";
   slug: "microcomputer-systems";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "oracle-plsql.mdx": {
 	id: "oracle-plsql.mdx";
   slug: "oracle-plsql";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "oracle-sql.mdx": {
 	id: "oracle-sql.mdx";
   slug: "oracle-sql";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "svelte-master.mdx": {
 	id: "svelte-master.mdx";
   slug: "svelte-master";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "system-network-admin.mdx": {
 	id: "system-network-admin.mdx";
   slug: "system-network-admin";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 "windows-server.mdx": {
 	id: "windows-server.mdx";
   slug: "windows-server";
   body: string;
   collection: "education";
-  data: InferEntrySchema<"education">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "experiences": {
@@ -259,42 +259,42 @@ declare module 'astro:content' {
   slug: "abast";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 "carbonell.mdx": {
 	id: "carbonell.mdx";
   slug: "carbonell";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 "carinsa.mdx": {
 	id: "carinsa.mdx";
   slug: "carinsa";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 "excelent.mdx": {
 	id: "excelent.mdx";
   slug: "excelent";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 "onlinevalles.mdx": {
 	id: "onlinevalles.mdx";
   slug: "onlinevalles";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 "opencloud.mdx": {
 	id: "opencloud.mdx";
   slug: "opencloud";
   body: string;
   collection: "experiences";
-  data: InferEntrySchema<"experiences">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "music": {
@@ -303,21 +303,21 @@ declare module 'astro:content' {
   slug: "paradis-city";
   body: string;
   collection: "music";
-  data: InferEntrySchema<"music">
+  data: any
 } & { render(): Render[".md"] };
 "Past Lives.md": {
 	id: "Past Lives.md";
   slug: "past-lives";
   body: string;
   collection: "music";
-  data: InferEntrySchema<"music">
+  data: any
 } & { render(): Render[".md"] };
 "sample-album.md": {
 	id: "sample-album.md";
   slug: "sample-album";
   body: string;
   collection: "music";
-  data: InferEntrySchema<"music">
+  data: any
 } & { render(): Render[".md"] };
 };
 "posts": {
@@ -326,35 +326,35 @@ declare module 'astro:content' {
   slug: "booking-scam";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "chatgpt.mdx": {
 	id: "chatgpt.mdx";
   slug: "chatgpt";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "feedback.mdx": {
 	id: "feedback.mdx";
   slug: "feedback";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "hexagonal-arch.mdx": {
 	id: "hexagonal-arch.mdx";
   slug: "hexagonal-arch";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "k8s.mdx": {
 	id: "k8s.mdx";
   slug: "k8s";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 "projects": {
@@ -363,35 +363,35 @@ declare module 'astro:content' {
   slug: "api-rest";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdx"] };
 "basic-discord-theme.mdx": {
 	id: "basic-discord-theme.mdx";
   slug: "basic-discord-theme";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdx"] };
 "kit-unix.mdx": {
 	id: "kit-unix.mdx";
   slug: "kit-unix";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdx"] };
 "rof.mdx": {
 	id: "rof.mdx";
   slug: "rof";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdx"] };
 "web-portfolio.mdx": {
 	id: "web-portfolio.mdx";
   slug: "web-portfolio";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 
@@ -403,5 +403,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
