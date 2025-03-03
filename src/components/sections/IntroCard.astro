@@ -1,5 +1,5 @@
 ---
-import { Book, Github, Linkedin, PanelsTopLeft, Twitter, Youtube } from 'lucide-react';
+import { Github, Linkedin, Twitter } from 'lucide-react';
 import { PROFILE } from "../../content/profileData";
 import { Button } from '../ui/button';
 ---
@@ -35,6 +35,7 @@ import { Button } from '../ui/button';
           <span class="sr-only">LinkedIn Profile</span>
         </Button>
       </a>}
+      <!--
       {PROFILE.links?.youtube && <a href={PROFILE.links.youtube} aria-label="youtube channel" target="_blank">
           <Button aria-label="youtube channel">
             <Youtube/>
@@ -48,21 +49,21 @@ import { Button } from '../ui/button';
             <span class="sr-only">bluesky profile</span>
           </Button>
         </a>
-      }
+      } -->
       {PROFILE.links?.twitter && <a href={PROFILE.links.twitter} aria-label="twitter profile" target="_blank">
           <Button>
             <Twitter/>
             <span class="sr-only">Twitter profile</span>
           </Button>
         </a>
-      }
+      }<!-- 
       {PROFILE.links?.goodreads && <a href={PROFILE.links.goodreads} aria-label="goodreads profile" target="_blank">
           <Button>
             <Book/>
             <span class="sr-only">Goodreads</span>
           </Button>
         </a>
-      }
+      }-->
     </div>
   </div>
   <div class="w-full flex justify-center mt-4">
