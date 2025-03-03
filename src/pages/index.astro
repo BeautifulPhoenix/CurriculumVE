@@ -27,7 +27,7 @@ const SITE = PROFILE.site
     transition:animate="fade"
     class="relative m-auto grid w-full max-w-6xl gap-2 overflow-hidden p-2 sm:gap-2 sm:p-4 md:grid-cols-2 md:gap-3 md:p-6 lg:grid-cols-12 lg:gap-4"
   >
-    <Card colSpan="lg:col-span-9 md:col-span-2" rowSpan="md:row-span-1 lg:row-span-4">
+    <Card colSpan="lg:col-span-9 md:col-span-2" rowSpan="md:row-span-1 lg:row-span-2">
       <IntroCard/>
     </Card>
     <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-3 lg:row-span-6" title="About me">
@@ -46,7 +46,7 @@ const SITE = PROFILE.site
     </Card>
 
 
-    <Card colSpan="lg:col-span-4 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2">
+    <Card colSpan="lg:col-span-6 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2">
       <div class="flex h-full flex-col justify-between">
         <blockquote class="mt-6 border-l-2 pl-6 italic">
           “{PROFILE.words[0]}”
@@ -54,31 +54,33 @@ const SITE = PROFILE.site
         <p class="mt-2 text-xs"></p>
       </div>
     </Card>
-    <Card colSpan="md:col-span-1 lg:col-span-5" rowSpan="md:row-span-2 lg:row-span-2"
-          title="Education and Certifications">
-      <StudyCard/>
-    </Card>
+  
 
     <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Experiences">
       <ExperienceCard/>
     </Card>
-
-
+    <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-2 lg:row-span-2"
+    title="Education and Certifications">
+<StudyCard/>
+</Card>
+<!--
     <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-1 lg:row-span-1" title="Blog Posts">
-      <!-- <BlogCard/> -->
-    </Card>
+       <BlogCard/> 
+    </Card>-->
     <Card colSpan="md:col-span-1 lg:col-span-3" rowSpan="md:row-span-2 lg:row-span-2" title="Music I'm Passionate About">
       <Music/>
     </Card>
-    <Card colSpan="md:col-span-1 lg:col-span-6" rowSpan="md:row-span-2 lg:row-span-1" title="Contact">
+    <!-- 
+    <Card colSpan="md:col-span-1 lg:col-span-12" rowSpan="md:row-span-2 lg:row-span-1 text">
       <div class="flex h-full w-full items-center justify-center text-center text-sm flex-col gap-2">
+        <h1>Contact</h1>
         <i>
           Please feel free to reach out to me through any from y social media.
         </i>
         <a href="tel:"><p class="font-medium">📱 695 98 17 90</p></a>
       </div>
     </Card>
-
+  -->
 
   </main>
 </BaseLayout>
