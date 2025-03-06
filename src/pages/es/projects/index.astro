@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-import ProjectCard from "../../components/ProjectCard.astro";
-import IndexPageLayout from "../../layouts/IndexPageLayout.astro";
+import ProjectCard from "../../../components/ProjectCard.astro";
+import IndexPageLayout from "../../../layouts/IndexPageLayout.astro";
 
 
 
@@ -14,14 +14,14 @@ projects.sort((a: any, b: any) => {
 });
 ---
 
-<IndexPageLayout title="Projects" description="Projects I have worked on recently." subTitle="My Projects">
+<IndexPageLayout title="Proyectos" description="Proyectos en los que he trabajado recientemente." subTitle="Mis Proyectos">
   <div class="grid grid-cols-3 gap-3">
 
   {
     projects.map((entity: any) => (
       <ProjectCard
         key={entity.data.title}
-        href={'/projects/' + entity.slug}
+        href={'/es/projects/' + entity.slug}
         heading={entity.data.title}
         subheading={entity.data.description}
         altText={entity?.data?.image?.alt || "Project thumbnail"}
