@@ -372,41 +372,6 @@ declare module 'astro:content' {
   collection: "projects";
   data: any
 } & { render(): Render[".mdx"] };
-"es/api-rest.mdx": {
-	id: "es/api-rest.mdx";
-  slug: "es/api-rest";
-  body: string;
-  collection: "projects";
-  data: any
-} & { render(): Render[".mdx"] };
-"es/basic-discord-theme.mdx": {
-	id: "es/basic-discord-theme.mdx";
-  slug: "es/basic-discord-theme";
-  body: string;
-  collection: "projects";
-  data: any
-} & { render(): Render[".mdx"] };
-"es/kit-unix.mdx": {
-	id: "es/kit-unix.mdx";
-  slug: "es/kit-unix";
-  body: string;
-  collection: "projects";
-  data: any
-} & { render(): Render[".mdx"] };
-"es/rof.mdx": {
-	id: "es/rof.mdx";
-  slug: "es/rof";
-  body: string;
-  collection: "projects";
-  data: any
-} & { render(): Render[".mdx"] };
-"es/web-portfolio.mdx": {
-	id: "es/web-portfolio.mdx";
-  slug: "es/web-portfolio";
-  body: string;
-  collection: "projects";
-  data: any
-} & { render(): Render[".mdx"] };
 "kit-unix.mdx": {
 	id: "kit-unix.mdx";
   slug: "kit-unix";
