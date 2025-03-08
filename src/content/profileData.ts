@@ -39,13 +39,9 @@ export const PROFILE = {
     "SQL",
     "Astro",
     "PHP",
-    "Windows",
-    "Linux",
-    "3D Modeling",
-    "3D Printing",
-    "CAD Design",
-    "Fusion360",
-    "Blender"
+    "Windows / Linux",
+    "Unity & Blender",    "3D Print",
+    "CAD / Fusion360"
   ],
   links: {
     github: "https://github.com/BeautifulPhoenix",
